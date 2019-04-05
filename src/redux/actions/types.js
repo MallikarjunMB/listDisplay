@@ -1,0 +1,2 @@
+export const DISPLAY_LIST = 'DISPLAY_LIST';
+export const ACTIVITY_LIST = 'ACTIVITY_LIST';
