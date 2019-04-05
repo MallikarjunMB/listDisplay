@@ -26,7 +26,7 @@ class Home extends Component {
         Home Component
         <Row style={{display:'inline-flex'}}>
       
-        {postItems}
+        {postItems} 
         
     </Row>
       </div>
@@ -34,7 +34,7 @@ class Home extends Component {
   }
 }
 const mapStateToProps = (reduxState) => {
-  console.log('mapstate', reduxState)
+  
   return { productDetails: reduxState }
 }
 
